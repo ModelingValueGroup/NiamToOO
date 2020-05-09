@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:113734f0-5fc0-4e27-8085-c36d96d05c77(oo)">
+<model ref="r:113734f0-5fc0-4e27-8085-c36d96d05c77(oo.sales)">
   <persistence version="9" />
   <languages>
     <use id="c1c958b2-4899-4552-aa88-46224c2bbff2" name="OO" version="0" />
@@ -24,72 +24,72 @@
       </concept>
     </language>
   </registry>
-  <node concept="3iBlOi" id="7jYi1ObDOgl">
+  <node concept="3iBlOi" id="2M2Y7MDQajD">
     <property role="TrG5h" value="Customer" />
-    <node concept="1ifcpv" id="7jYi1ObDOgq" role="1ifcpw">
+    <node concept="1ifcpv" id="IDwShtxPZg" role="1ifcpw">
       <property role="1$SuH$" value="false" />
       <property role="TrG5h" value="name" />
       <ref role="1ifcpA" to="hd2h:16saiK4Lv4q" resolve="String" />
     </node>
-    <node concept="1ifcpv" id="7jYi1ObDOgn" role="1ifcpw">
+    <node concept="1ifcpv" id="7HD3d8yJLEt" role="1ifcpw">
       <property role="1$SuH$" value="true" />
       <property role="TrG5h" value="orders" />
-      <ref role="1ifcpA" node="7jYi1ObDOgm" resolve="Order" />
-      <ref role="gym7E" node="7jYi1ObDOgp" resolve="customer" />
+      <ref role="1ifcpA" node="7HD3d8yJLEs" resolve="Order" />
+      <ref role="gym7E" node="7HD3d8yJLEr" resolve="customer" />
     </node>
   </node>
-  <node concept="3iBlOi" id="7jYi1ObDOgm">
+  <node concept="3iBlOi" id="7HD3d8yJLEo">
+    <property role="TrG5h" value="Product" />
+    <node concept="1ifcpv" id="7HD3d8yJLEp" role="1ifcpw">
+      <property role="1$SuH$" value="true" />
+      <property role="TrG5h" value="row" />
+      <ref role="1ifcpA" node="7HD3d8yJLEw" resolve="OrderRow" />
+      <ref role="gym7E" node="7HD3d8yJLEy" resolve="product" />
+    </node>
+    <node concept="1ifcpv" id="7HD3d8yJLEq" role="1ifcpw">
+      <property role="1$SuH$" value="false" />
+      <property role="TrG5h" value="name" />
+      <ref role="1ifcpA" to="hd2h:16saiK4Lv4q" resolve="String" />
+    </node>
+  </node>
+  <node concept="3iBlOi" id="7HD3d8yJLEs">
     <property role="TrG5h" value="Order" />
-    <node concept="1ifcpv" id="7jYi1ObDOgt" role="1ifcpw">
+    <node concept="1ifcpv" id="7HD3d8yJLEu" role="1ifcpw">
       <property role="1$SuH$" value="true" />
       <property role="TrG5h" value="rows" />
-      <ref role="1ifcpA" node="7jYi1ObDOgj" resolve="OrderRow" />
-      <ref role="gym7E" node="7jYi1ObDOgu" resolve="order" />
+      <ref role="1ifcpA" node="7HD3d8yJLEw" resolve="OrderRow" />
+      <ref role="gym7E" node="7HD3d8yJLEx" resolve="order" />
     </node>
-    <node concept="1ifcpv" id="22BqzOGxFn7" role="1ifcpw">
+    <node concept="1ifcpv" id="7HD3d8yJLEv" role="1ifcpw">
       <property role="1$SuH$" value="false" />
       <property role="TrG5h" value="number" />
       <ref role="1ifcpA" to="hd2h:6BrCNrdFH2m" resolve="Integer" />
     </node>
-    <node concept="1ifcpv" id="7jYi1ObDOgp" role="1ifcpw">
+    <node concept="1ifcpv" id="7HD3d8yJLEr" role="1ifcpw">
       <property role="1$SuH$" value="false" />
       <property role="TrG5h" value="customer" />
-      <ref role="gym7E" node="7jYi1ObDOgn" resolve="orders" />
-      <ref role="1ifcpA" node="7jYi1ObDOgl" resolve="Customer" />
+      <ref role="1ifcpA" node="2M2Y7MDQajD" resolve="Customer" />
+      <ref role="gym7E" node="7HD3d8yJLEt" resolve="orders" />
     </node>
   </node>
-  <node concept="3iBlOi" id="7jYi1ObDOgj">
+  <node concept="3iBlOi" id="7HD3d8yJLEw">
     <property role="TrG5h" value="OrderRow" />
-    <node concept="1ifcpv" id="7jYi1ObDOgu" role="1ifcpw">
+    <node concept="1ifcpv" id="7HD3d8yJLEx" role="1ifcpw">
       <property role="1$SuH$" value="false" />
       <property role="TrG5h" value="order" />
-      <ref role="gym7E" node="7jYi1ObDOgt" resolve="rows" />
-      <ref role="1ifcpA" node="7jYi1ObDOgm" resolve="Order" />
+      <ref role="1ifcpA" node="7HD3d8yJLEs" resolve="Order" />
+      <ref role="gym7E" node="7HD3d8yJLEu" resolve="rows" />
     </node>
-    <node concept="1ifcpv" id="7jYi1ObDOgr" role="1ifcpw">
+    <node concept="1ifcpv" id="7HD3d8yJLEy" role="1ifcpw">
       <property role="1$SuH$" value="false" />
       <property role="TrG5h" value="product" />
-      <ref role="gym7E" node="7jYi1ObDOgs" resolve="row" />
-      <ref role="1ifcpA" node="7jYi1ObDOgk" resolve="Product" />
+      <ref role="1ifcpA" node="7HD3d8yJLEo" resolve="Product" />
+      <ref role="gym7E" node="7HD3d8yJLEp" resolve="row" />
     </node>
-    <node concept="1ifcpv" id="22BqzOGxFnz" role="1ifcpw">
+    <node concept="1ifcpv" id="7HD3d8yJLEz" role="1ifcpw">
       <property role="1$SuH$" value="false" />
       <property role="TrG5h" value="amount" />
       <ref role="1ifcpA" to="hd2h:6BrCNrdFH2m" resolve="Integer" />
-    </node>
-  </node>
-  <node concept="3iBlOi" id="7jYi1ObDOgk">
-    <property role="TrG5h" value="Product" />
-    <node concept="1ifcpv" id="7jYi1ObDOgs" role="1ifcpw">
-      <property role="1$SuH$" value="true" />
-      <property role="TrG5h" value="row" />
-      <ref role="1ifcpA" node="7jYi1ObDOgj" resolve="OrderRow" />
-      <ref role="gym7E" node="7jYi1ObDOgr" resolve="product" />
-    </node>
-    <node concept="1ifcpv" id="22BqzOGxFmJ" role="1ifcpw">
-      <property role="1$SuH$" value="false" />
-      <property role="TrG5h" value="name" />
-      <ref role="1ifcpA" to="hd2h:16saiK4Lv4q" resolve="String" />
     </node>
   </node>
 </model>

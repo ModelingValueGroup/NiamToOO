@@ -19,7 +19,7 @@
         <child id="8657451989476847212" name="rightRole" index="1$SlNr" />
         <child id="8657451989476847211" name="leftRole" index="1$SlNs" />
       </concept>
-      <concept id="8657451989476919848" name="NIAM.structure.Model" flags="ng" index="1$S3yv">
+      <concept id="8657451989476919848" name="NIAM.structure.NiamModel" flags="ng" index="1$S3yv">
         <child id="8657451989476919851" name="factTypes" index="1$S3ys" />
         <child id="8657451989476919849" name="objectTypes" index="1$S3yu" />
       </concept>
@@ -122,6 +122,64 @@
         <property role="TrG5h" value="name" />
         <ref role="1$SlJc" to="4oyr:7w_sFssLdIw" resolve="Text" />
       </node>
+    </node>
+  </node>
+  <node concept="1$S3yv" id="5Hy875eUeQL">
+    <property role="TrG5h" value="library" />
+    <node concept="2WID_Y" id="6CtmV0M2sdY" role="1$S3ys">
+      <property role="TrG5h" value="author has written title" />
+      <node concept="1$SlJe" id="6CtmV0M2sdZ" role="1$SlNs">
+        <property role="TrG5h" value="author" />
+        <ref role="1$SlJc" node="5Hy875eUeQT" resolve="Auther" />
+      </node>
+      <node concept="1$SlJe" id="6CtmV0M2se0" role="1$SlNr">
+        <property role="TrG5h" value="title" />
+        <property role="1$SWLe" value="true" />
+        <ref role="1$SlJc" node="5Hy875eUeQM" resolve="Title" />
+      </node>
+    </node>
+    <node concept="2WID_Y" id="6CtmV0M2se4" role="1$S3ys">
+      <property role="TrG5h" value="book has title" />
+      <node concept="1$SlJe" id="6CtmV0M2se5" role="1$SlNs">
+        <property role="TrG5h" value="book" />
+        <property role="1$SWLe" value="true" />
+        <ref role="1$SlJc" node="5Hy875eUeQP" resolve="Book" />
+      </node>
+      <node concept="1$SlJe" id="6CtmV0M2se6" role="1$SlNr">
+        <property role="TrG5h" value="title" />
+        <ref role="1$SlJc" node="5Hy875eUeQM" resolve="Title" />
+      </node>
+    </node>
+    <node concept="2WID_Y" id="6CtmV0M2sed" role="1$S3ys">
+      <property role="TrG5h" value="title has isbnr" />
+      <node concept="1$SlJe" id="6CtmV0M2see" role="1$SlNs">
+        <property role="TrG5h" value="title" />
+        <ref role="1$SlJc" node="5Hy875eUeQM" resolve="Title" />
+      </node>
+      <node concept="1$SlJe" id="6CtmV0M2sef" role="1$SlNr">
+        <property role="TrG5h" value="isbn" />
+        <ref role="1$SlJc" to="4oyr:7w_sFssLkC_" resolve="Number" />
+      </node>
+    </node>
+    <node concept="2WID_Y" id="6CtmV0M2sep" role="1$S3ys">
+      <property role="TrG5h" value="author nas name" />
+      <node concept="1$SlJe" id="6CtmV0M2seq" role="1$SlNs">
+        <property role="TrG5h" value="author" />
+        <ref role="1$SlJc" node="5Hy875eUeQT" resolve="Auther" />
+      </node>
+      <node concept="1$SlJe" id="6CtmV0M2ser" role="1$SlNr">
+        <property role="TrG5h" value="name" />
+        <ref role="1$SlJc" to="4oyr:7w_sFssLdIw" resolve="Text" />
+      </node>
+    </node>
+    <node concept="2$tneK" id="5Hy875eUeQM" role="1$S3yu">
+      <property role="TrG5h" value="Title" />
+    </node>
+    <node concept="2$tneK" id="5Hy875eUeQP" role="1$S3yu">
+      <property role="TrG5h" value="Book" />
+    </node>
+    <node concept="2$tneK" id="5Hy875eUeQT" role="1$S3yu">
+      <property role="TrG5h" value="Auther" />
     </node>
   </node>
 </model>

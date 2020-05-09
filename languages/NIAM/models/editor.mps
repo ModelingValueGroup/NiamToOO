@@ -236,7 +236,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="7w_sFssLkD$">
-    <ref role="1XX52x" to="yhi:7w_sFssLkCC" resolve="Model" />
+    <ref role="1XX52x" to="yhi:7w_sFssLkCC" resolve="NiamModel" />
     <node concept="3EZMnI" id="7w_sFssLkFp" role="2wV5jI">
       <node concept="l2Vlx" id="7w_sFssLkFq" role="2iSdaV" />
       <node concept="3F0ifn" id="7w_sFssLkFr" role="3EZMnx">

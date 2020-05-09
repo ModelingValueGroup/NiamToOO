@@ -37,7 +37,7 @@
     </file>
     <file name="LanguageConceptSwitch.java">
       <node id="7627869849656414342" at="15,0,16,0" concept="5" trace="NonLexicalObjectType" />
-      <node id="7627869849656414342" at="23,44,24,59" concept="0" />
+      <node id="7627869849656414342" at="23,48,24,59" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="7627869849656414342" at="20,0,21,0" concept="1" trace="myConceptNonLexicalObjectType" />
@@ -168,36 +168,36 @@
   </root>
   <root nodeRef="r:51fdb43c-baa7-485c-9b34-dbbf24f73c49(NIAM.structure)/8657451989476919848">
     <file name="ConceptPresentationAspectImpl.java">
-      <node id="8657451989476919848" at="14,0,15,0" concept="1" trace="props_Model" />
-      <node id="8657451989476919848" at="41,34,42,76" concept="3" />
+      <node id="8657451989476919848" at="14,0,15,0" concept="1" trace="props_NiamModel" />
+      <node id="8657451989476919848" at="41,38,42,76" concept="3" />
       <node id="8657451989476919848" at="42,76,43,35" concept="0" />
       <node id="8657451989476919848" at="43,35,44,55" concept="0" />
-      <node id="8657451989476919848" at="44,55,45,37" concept="0" />
-      <node id="8657451989476919848" at="46,9,47,27" concept="4" />
-      <node id="8657451989476919848" at="40,39,46,9" concept="2" />
-      <scope id="8657451989476919848" at="41,34,45,37">
+      <node id="8657451989476919848" at="44,55,45,41" concept="0" />
+      <node id="8657451989476919848" at="46,9,47,31" concept="4" />
+      <node id="8657451989476919848" at="40,43,46,9" concept="2" />
+      <scope id="8657451989476919848" at="41,38,45,41">
         <var name="cpb" id="8657451989476919848" />
       </scope>
-      <scope id="8657451989476919848" at="40,39,47,27" />
+      <scope id="8657451989476919848" at="40,43,47,31" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="8657451989476919848" at="14,0,15,0" concept="5" trace="Model" />
-      <node id="8657451989476919848" at="22,56,23,44" concept="0" />
+      <node id="8657451989476919848" at="14,0,15,0" concept="5" trace="NiamModel" />
+      <node id="8657451989476919848" at="22,56,23,48" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="8657451989476919848" at="19,0,20,0" concept="1" trace="myConceptModel" />
-      <node id="8657451989476919848" at="48,39,49,30" concept="4" />
-      <node id="8657451989476919848" at="89,63,90,144" concept="3" />
-      <node id="8657451989476919848" at="90,144,91,33" concept="0" />
+      <node id="8657451989476919848" at="19,0,20,0" concept="1" trace="myConceptNiamModel" />
+      <node id="8657451989476919848" at="48,43,49,34" concept="4" />
+      <node id="8657451989476919848" at="89,67,90,148" concept="3" />
+      <node id="8657451989476919848" at="90,148,91,33" concept="0" />
       <node id="8657451989476919848" at="91,33,92,71" concept="0" />
       <node id="8657451989476919848" at="92,71,93,91" concept="0" />
       <node id="8657451989476919848" at="93,91,94,17" concept="0" />
       <node id="8657451989476919849" at="94,17,95,203" concept="0" />
       <node id="8657451989476919851" at="95,203,96,201" concept="0" />
       <node id="8657451989476919848" at="96,201,97,22" concept="4" />
-      <node id="8657451989476919848" at="89,0,99,0" concept="6" trace="createDescriptorForModel#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="8657451989476919848" at="48,39,49,30" />
-      <scope id="8657451989476919848" at="89,63,97,22">
+      <node id="8657451989476919848" at="89,0,99,0" concept="6" trace="createDescriptorForNiamModel#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="8657451989476919848" at="48,43,49,34" />
+      <scope id="8657451989476919848" at="89,67,97,22">
         <var name="b" id="8657451989476919848" />
       </scope>
       <scope id="8657451989476919848" at="89,0,99,0" />

@@ -171,7 +171,7 @@
   </node>
   <node concept="1TIwiD" id="7w_sFssLkCC">
     <property role="EcuMT" value="8657451989476919848" />
-    <property role="TrG5h" value="Model" />
+    <property role="TrG5h" value="NiamModel" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7w_sFssLkCD" role="1TKVEi">
