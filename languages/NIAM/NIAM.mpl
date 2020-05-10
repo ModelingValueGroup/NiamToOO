@@ -22,7 +22,7 @@
     <dependency reexport="false">15ef76ea-e875-4ecb-ba93-f3d16cc9b71a(DclareMessages)</dependency>
   </dependencies>
   <languageVersions>
-    <language slang="l:c32b788d-8e4b-4023-97f5-3e90d04ed77b:DclareMPS" version="1" />
+    <language slang="l:c32b788d-8e4b-4023-97f5-3e90d04ed77b:DclareMPS" version="2" />
     <language slang="l:6595556b-6285-4e84-b0c6-343b503d4622:NIAM" version="0" />
     <language slang="l:c1c958b2-4899-4552-aa88-46224c2bbff2:OO" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="9" />
