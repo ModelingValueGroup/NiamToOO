@@ -41,6 +41,7 @@
         <reference id="3562215692195600259" name="attribute" index="13MTZf" />
       </concept>
       <concept id="8665521623231527539" name="DclareMPS.structure.ModelBuilder" flags="ng" index="1qr6hM">
+        <property id="8665521623232963568" name="transient" index="1q1BRL" />
         <child id="8665521623231527546" name="parts" index="1qr6hV" />
       </concept>
       <concept id="2483495814474836727" name="DclareMPS.structure.OppositeLinkAccess" flags="ng" index="3sxwMZ" />
@@ -546,6 +547,7 @@
       <property role="TrG5h" value="oo" />
       <node concept="H_c77" id="7w_sFssMsAA" role="1tU5fm" />
       <node concept="1qr6hM" id="lSgC6tCEUl" role="33vP2m">
+        <property role="1q1BRL" value="true" />
         <node concept="2oVplD" id="lSgC6tDaN6" role="1qr6hV">
           <node concept="3cpWs3" id="5hAWd3ExoaJ" role="2oVVTf">
             <node concept="Xl_RD" id="5hAWd3Exotj" role="3uHU7B">
