@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:1664e7cb-6a3f-4afc-bdad-fb852d4faddb(OO.primitives)" doNotGenerate="true">
+<model ref="r:1664e7cb-6a3f-4afc-bdad-fb852d4faddb(OO.primitives)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="true" />
   <languages>
     <use id="c1c958b2-4899-4552-aa88-46224c2bbff2" name="OO" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
