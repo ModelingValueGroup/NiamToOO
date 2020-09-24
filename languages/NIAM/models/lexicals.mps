@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:e7753ff3-5403-4c52-80aa-a0f9a544c93b(NIAM.lexicals)" doNotGenerate="true">
+<model ref="r:e7753ff3-5403-4c52-80aa-a0f9a544c93b(NIAM.lexicals)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="true" />
   <languages>
     <use id="6595556b-6285-4e84-b0c6-343b503d4622" name="NIAM" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
