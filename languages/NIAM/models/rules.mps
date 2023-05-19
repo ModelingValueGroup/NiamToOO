@@ -2,7 +2,7 @@
 <model ref="r:7be91194-d3ab-4b58-9ff4-365a2009b78b(NIAM.rules)">
   <persistence version="9" />
   <languages>
-    <use id="c32b788d-8e4b-4023-97f5-3e90d04ed77b" name="DclareMPS" version="2" />
+    <use id="c32b788d-8e4b-4023-97f5-3e90d04ed77b" name="DclareMPS" version="5" />
     <use id="c1c958b2-4899-4552-aa88-46224c2bbff2" name="OO" version="0" />
     <use id="6595556b-6285-4e84-b0c6-343b503d4622" name="NIAM" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -24,6 +24,7 @@
         <reference id="1171315804605" name="concept" index="2RRcyH" />
       </concept>
       <concept id="3943890974580131286" name="DclareMPS.structure.Equation" flags="ng" index="E34o$" />
+      <concept id="5858913584106642961" name="DclareMPS.structure.Aspect" flags="ng" index="2Rb1jd" />
       <concept id="359025656632646706" name="DclareMPS.structure.ThisExpression" flags="ng" index="2Wb9Zs" />
       <concept id="5867814440126781489" name="DclareMPS.structure.Models" flags="ng" index="2YLb8l" />
       <concept id="5867814440126705082" name="DclareMPS.structure.RootsImplicitSelect" flags="ng" index="2YL$uu">
@@ -40,6 +41,9 @@
       <concept id="3562215692195599741" name="DclareMPS.structure.AttributeImplicitSelect" flags="nn" index="13MTOL">
         <reference id="3562215692195600259" name="attribute" index="13MTZf" />
       </concept>
+      <concept id="8182547171709738802" name="DclareMPS.structure.ListBuilder" flags="nn" index="36be1Y">
+        <child id="4961035436665424243" name="elements" index="2Gi6C2" />
+      </concept>
       <concept id="8665521623231527539" name="DclareMPS.structure.ModelBuilder" flags="ng" index="1qr6hM">
         <property id="8665521623232963568" name="transient" index="1q1BRL" />
         <child id="8665521623231527546" name="parts" index="1qr6hV" />
@@ -49,11 +53,12 @@
         <child id="7745179321625723507" name="statement" index="30jUnX" />
       </concept>
       <concept id="2483495814491113449" name="DclareMPS.structure.RuleSet" flags="ng" index="3tBE6x">
+        <reference id="5858913584106722103" name="aspect" index="2RaPBF" />
         <child id="7599581349097315861" name="members" index="1FPzNG" />
       </concept>
-      <concept id="7599581349097323169" name="DclareMPS.structure.PlaceholderRuleSetMember" flags="ng" index="1FPxxo" />
       <concept id="3813752605087602155" name="DclareMPS.structure.UsedLanguages" flags="ng" index="3NAFSy" />
       <concept id="5191463817731928991" name="DclareMPS.structure.AttributeReference" flags="ng" index="1SfVH9" />
+      <concept id="2716823923703278623" name="DclareMPS.structure.ModelBuilderLanguages" flags="ng" index="3WavjD" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
@@ -199,14 +204,13 @@
   </registry>
   <node concept="311c5q" id="7w_sFssMokD">
     <ref role="311c5K" to="yhi:7w_sFssMb4z" resolve="ObjectType" />
-    <node concept="1FPxxo" id="6_R8J$31qH$" role="1FPzNG" />
+    <ref role="2RaPBF" node="65$pnVIFLmj" resolve="DEFAULT" />
     <node concept="32q3_s" id="7w_sFssMokE" role="1FPzNG">
       <property role="TrG5h" value="oo" />
       <node concept="3Tqbb2" id="7w_sFssMokM" role="1tU5fm">
         <ref role="ehGHo" to="cdqa:6BrCNrdIa5x" resolve="Type" />
       </node>
     </node>
-    <node concept="1FPxxo" id="6_R8J$31qH_" role="1FPzNG" />
     <node concept="32q3_s" id="7w_sFssN0wO" role="1FPzNG">
       <property role="TrG5h" value="roles" />
       <node concept="2OqwBi" id="7w_sFssN0XZ" role="33vP2m">
@@ -219,11 +223,10 @@
         <ref role="2I9WkF" to="yhi:7w_sFssL2_T" resolve="Role" />
       </node>
     </node>
-    <node concept="1FPxxo" id="6_R8J$31qHA" role="1FPzNG" />
   </node>
   <node concept="311c5q" id="7w_sFssMoll">
     <ref role="311c5K" to="yhi:6BrCNrdFH26" resolve="NonLexicalObjectType" />
-    <node concept="1FPxxo" id="6_R8J$31qHB" role="1FPzNG" />
+    <ref role="2RaPBF" node="65$pnVIFLmj" resolve="DEFAULT" />
     <node concept="3tBE6w" id="7w_sFssMolm" role="1FPzNG">
       <node concept="3clFbF" id="7w_sFssMolD" role="30jUnX">
         <node concept="E34o$" id="7w_sFssMpzl" role="3clFbG">
@@ -270,11 +273,10 @@
         </node>
       </node>
     </node>
-    <node concept="1FPxxo" id="6_R8J$31qHC" role="1FPzNG" />
   </node>
   <node concept="311c5q" id="7w_sFssMp77">
     <ref role="311c5K" to="yhi:7w_sFssL9Bl" resolve="LexicalObjectType" />
-    <node concept="1FPxxo" id="6_R8J$31qHD" role="1FPzNG" />
+    <ref role="2RaPBF" node="65$pnVIFLmj" resolve="DEFAULT" />
     <node concept="3tBE6w" id="2sGX1Dcj2El" role="1FPzNG">
       <node concept="3clFbF" id="2sGX1Dcj2Or" role="30jUnX">
         <node concept="E34o$" id="2sGX1Dcj8Ow" role="3clFbG">
@@ -293,10 +295,9 @@
         </node>
       </node>
     </node>
-    <node concept="1FPxxo" id="6_R8J$31qHE" role="1FPzNG" />
   </node>
   <node concept="3115$e" id="7w_sFssMsAt">
-    <node concept="1FPxxo" id="6_R8J$31qHF" role="1FPzNG" />
+    <ref role="2RaPBF" node="65$pnVIFLmj" resolve="DEFAULT" />
     <node concept="32q3_s" id="5hAWd3EwC5v" role="1FPzNG">
       <property role="TrG5h" value="ooModels" />
       <property role="KodbT" value="true" />
@@ -327,7 +328,6 @@
         <node concept="10Nm6u" id="5Hy875eQz95" role="3K4GZi" />
       </node>
     </node>
-    <node concept="1FPxxo" id="6_R8J$31qHG" role="1FPzNG" />
     <node concept="3tBE6w" id="3BMm5IoRZ8" role="1FPzNG">
       <node concept="3clFbJ" id="3BMm5IoSJq" role="30jUnX">
         <node concept="3clFbS" id="3BMm5IoSJs" role="3clFbx">
@@ -389,11 +389,10 @@
         </node>
       </node>
     </node>
-    <node concept="1FPxxo" id="6_R8J$31qHH" role="1FPzNG" />
   </node>
   <node concept="311c5q" id="7w_sFssMRY5">
     <ref role="311c5K" to="yhi:7w_sFssL2_T" resolve="Role" />
-    <node concept="1FPxxo" id="6_R8J$31qHI" role="1FPzNG" />
+    <ref role="2RaPBF" node="65$pnVIFLmj" resolve="DEFAULT" />
     <node concept="32q3_s" id="7w_sFssMYMm" role="1FPzNG">
       <property role="TrG5h" value="nonLexical" />
       <node concept="10P_77" id="7w_sFssMYMf" role="1tU5fm" />
@@ -411,7 +410,6 @@
         </node>
       </node>
     </node>
-    <node concept="1FPxxo" id="6_R8J$31qHJ" role="1FPzNG" />
     <node concept="32q3_s" id="4ShjQHwRz$H" role="1FPzNG">
       <property role="TrG5h" value="factType" />
       <node concept="3Tqbb2" id="4ShjQHwRz$B" role="1tU5fm">
@@ -427,7 +425,6 @@
         </node>
       </node>
     </node>
-    <node concept="1FPxxo" id="6_R8J$31qHK" role="1FPzNG" />
     <node concept="32q3_s" id="7w_sFssNuWQ" role="1FPzNG">
       <property role="TrG5h" value="opposite" />
       <property role="KodbT" value="true" />
@@ -464,7 +461,6 @@
         </node>
       </node>
     </node>
-    <node concept="1FPxxo" id="6_R8J$31qHL" role="1FPzNG" />
     <node concept="32q3_s" id="7w_sFssMRY6" role="1FPzNG">
       <property role="TrG5h" value="oo" />
       <property role="KodbT" value="true" />
@@ -547,11 +543,10 @@
         </node>
       </node>
     </node>
-    <node concept="1FPxxo" id="6_R8J$31qHM" role="1FPzNG" />
   </node>
   <node concept="311c5q" id="5hAWd3Ewhp8">
     <ref role="311c5K" to="yhi:7w_sFssLkCC" resolve="NiamModel" />
-    <node concept="1FPxxo" id="6_R8J$31qHN" role="1FPzNG" />
+    <ref role="2RaPBF" node="65$pnVIFLmj" resolve="DEFAULT" />
     <node concept="32q3_s" id="7w_sFssMsAu" role="1FPzNG">
       <property role="TrG5h" value="oo" />
       <node concept="H_c77" id="7w_sFssMsAA" role="1tU5fm" />
@@ -584,9 +579,21 @@
             </node>
           </node>
         </node>
+        <node concept="3WavjD" id="65$pnVIHvqT" role="1qr6hV">
+          <node concept="36be1Y" id="65$pnVIHvKh" role="2oVVTf">
+            <node concept="pHN19" id="65$pnVIHyDc" role="2Gi6C2">
+              <node concept="2V$Bhx" id="65$pnVIHyGH" role="2V$M_3">
+                <property role="2V$B1T" value="c1c958b2-4899-4552-aa88-46224c2bbff2" />
+                <property role="2V$B1Q" value="OO" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
-    <node concept="1FPxxo" id="6_R8J$31qHO" role="1FPzNG" />
+  </node>
+  <node concept="2Rb1jd" id="65$pnVIFLmj">
+    <property role="TrG5h" value="DEFAULT" />
   </node>
 </model>
 

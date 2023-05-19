@@ -179,7 +179,7 @@
       <property role="TrG5h" value="Book" />
     </node>
     <node concept="2$tneK" id="5Hy875eUeQT" role="1$S3yu">
-      <property role="TrG5h" value="Auther" />
+      <property role="TrG5h" value="Author" />
     </node>
   </node>
 </model>

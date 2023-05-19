@@ -31,7 +31,6 @@
     <module reference="c1c958b2-4899-4552-aa88-46224c2bbff2(OO)" version="0" />
     <module reference="f6a4176f-8ff2-4603-a417-4b6fd3576340(Sales)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
-    <module reference="9e98f4e2-decf-4e97-bf80-9109e8b759aa(jetbrains.mps.lang.feedback.context)" version="0" />
   </dependencyVersions>
 </solution>
 
