@@ -130,7 +130,7 @@
       <property role="TrG5h" value="author has written title" />
       <node concept="1$SlJe" id="6CtmV0M2sdZ" role="1$SlNs">
         <property role="TrG5h" value="author" />
-        <ref role="1$SlJc" node="5Hy875eUeQT" resolve="Auther" />
+        <ref role="1$SlJc" node="5Hy875eUeQT" resolve="Author" />
       </node>
       <node concept="1$SlJe" id="6CtmV0M2se0" role="1$SlNr">
         <property role="TrG5h" value="title" />
@@ -165,7 +165,7 @@
       <property role="TrG5h" value="author nas name" />
       <node concept="1$SlJe" id="6CtmV0M2seq" role="1$SlNs">
         <property role="TrG5h" value="author" />
-        <ref role="1$SlJc" node="5Hy875eUeQT" resolve="Auther" />
+        <ref role="1$SlJc" node="5Hy875eUeQT" resolve="Author" />
       </node>
       <node concept="1$SlJe" id="6CtmV0M2ser" role="1$SlNr">
         <property role="TrG5h" value="name" />
